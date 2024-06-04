@@ -1,11 +1,19 @@
 import { Box, Center, Grid, GridItem, Text } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 
-const ProductList = () => {
+import React from 'react';
+
+
+
+export default function ProductList() {
+
     return (
         <Center>
             <Box p={4} borderRadius={8} w="100%">
+                <Center>
                 <Box display="flex" alignItems="center" mt={30}> <Text fontSize={40} as='b' mr={4}>Danh Mục</Text> </Box>
+                </Center>
+
                 <Grid
                     ml={30}
                     mt={70}
@@ -193,5 +201,3 @@ const ProductList = () => {
 
     );
 };
-
-export default ProductList;

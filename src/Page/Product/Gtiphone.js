@@ -1,4 +1,4 @@
-import { Box, Center, Grid, GridItem, Text, Flex, Button } from "@chakra-ui/react";
+import { Box, Center, Grid, GridItem, Text, Button } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 
 const ProductCard = () => {
