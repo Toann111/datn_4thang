@@ -50,7 +50,7 @@ const ProductCard = () => {
                         </Center>
                         <Text fontSize='2xl' as='b' textAlign="center">HP Gaming VICTUS 16 r0128TX i5 13450HX</Text>
                         <Text fontSize='md' textAlign="center" mt={4}>
-                            Giá mới: <span style={{ fontSize: '20px', color: 'red' }}>50,000,000</span>
+                            Giá mới: <span style={{ fontSize: '20px', color: 'red' }}>50,000,000VND</span>
                         </Text>
                     </GridItem>
                 ))}
